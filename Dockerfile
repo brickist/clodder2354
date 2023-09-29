@@ -10,4 +10,4 @@ RUN sed -i 's|"rpc-host-whitelist": ".*",|"rpc-host-whitelist": "clodder2354.onr
 
 EXPOSE 3000 7000 42069/tcp 42069/udp 5489/tcp 5489/udp 9091 51413/tcp 51413/udp
 
-CMD ["transmission-daemon","-f", "-g", "/etc/transmission-daemon/", "-u", "BricksConductor", "-v", "Riceinflates54@!"]
+CMD ["transmission-daemon","-m", "-f", "-g", "/etc/transmission-daemon/", "-u", "BricksConductor", "-v", "Riceinflates54@!"]
